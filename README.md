@@ -1,7 +1,7 @@
-# Html Introduction
+# Html Basic
 
 Foobar is a Python library for dealing with word pluralization.
-
+## Introduction
 ## What is Markup?
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
@@ -22,4 +22,19 @@ ordered list:
 Internal Links:
   - Same file
 
+## Documentation
+- https://www.w3schools.com/
+- https://devdocs.io/
+- https://htmlcheatsheet.com/
+
+
 ## Live Server
+
+## Tags
+- Tags: `<tagname> ... </tagname>`
+- Heading: `<h1> ... </h1>`
+- Paragraphs: `<p> ... </p>` (block level elements)
+- VS Code: "lerem50",
+- VS Code: `p*3`, `(p>lorem5)*3`
+- Italics: `<em> ... </em>` and not `<i> ... </i>`
+- Bold: `<strong> ... </strong>` and not `<b> ... </b>`
