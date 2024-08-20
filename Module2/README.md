@@ -1,6 +1,22 @@
-# Html Basic
+# Html Basic: Text, Lists and display
+- Text style and align
+  - e.g. `text-decoration: underline`
+  - e.g. `font-weight:bold;`
+   - e.g. `font-style: italic;`
+   - e.g. `text-align: right;`
+   - e.g. `text-align: left;`
+   - e.g. `text-align: justify;`
 
-Foobar is a Python library for dealing with word pluralization.
+- List
+  - e.g. `list-style-type: disc;` place on the ul element
+  - e.g. `list-style-type: square;` place on the ul element
+  - `list-style: none;` place on the ul element to remove list styles
+
+- Display modes
+  - `block` elements
+  - `inline` elements
+  - `inline-block` elements
+
 ## Introduction
 ## What is Markup?
 
@@ -30,6 +46,9 @@ type attribute: e.g.
 - emmet
 - input[type=submit]
 - input[type=text]
+
+feildset
+
 
 ## Documentation
 - https://www.w3schools.com/

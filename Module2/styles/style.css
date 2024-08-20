@@ -1,0 +1,137 @@
+/* Element Selectors */
+*{
+  margin:0;
+  padding: 0;
+  /* border-style: solid; */
+
+}
+
+html {
+  font-size:20px;
+}
+
+body {
+  background-color: #dcffdc;
+  color: darkgreen;
+  font-family: "Antic Slab", serif;
+}
+
+header {
+  background-color: white;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive, Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+  /* width:50%; */
+  width: calc(50% - 2px);
+  display: inline-block;
+  margin: 1px;;
+}
+
+ul, ol {
+  padding-left:40px;
+
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type:lower-greek;
+}
+
+p {
+  padding: 10px;
+  text-align:left;
+}
+
+/* Class Selectors */
+.introduction {
+  font-size: 25px;
+  text-align: center;
+  color:rgb(30,30,30);
+}
+
+.profile {
+  background-color: white;
+  color: rgb(30,30,30);
+}
+
+.profile-description {
+  color:rgb(30,30,30);
+}
+
+.right {
+  text-align: right;
+  background-color: aqua;
+}
+
+.header-nav-menu {
+  margin:0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.header-menu-item {
+  margin-right: 40px;
+  text-decoration: none;
+  color:black;
+}
+
+.header-menu-item a{
+  margin-right: 40px;
+  text-decoration: none;
+  color:black;
+}
+
+.logo {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 25px 0px 25px 25px;
+}
+
+.font-size-experiment {
+  color:red;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* ID Selectors */
+#para1{
+  background-color: green;
+  text-align: center;
+  color:white;
+  font-size: x-large;
+}
+
+#first-paragraph {
+  border: 5px solid rgb(10, 244, 220);
+}
+
+/* Attribute Selectors */
+[type=text], [type=email] {
+  padding: 5px;
+}
+
+form [type=text],
+[type=email] {
+ background-color: blue;
+}

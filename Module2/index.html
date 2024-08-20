@@ -6,9 +6,6 @@
   <title>Your First Html Page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
 
@@ -16,17 +13,33 @@
 
 <body>
   <header>
-    <nav>
-      <a href="#social-media">My Social Media</a>
-      <a href="./projects.html">My Projects</a>
-      <a href="https://www.linkedin.com/in/farnaz-towhidi-12979665/" target="_blank">Find Me ...</a>
-      <a href="/images/FarnazTowhidi.jpeg" target="_blank">Me</a>
-      <a href="./blog.html">My Blog Page</a>
-      <a href="./contact.html">Contact</a>
+    <nav class="header-nav">
+      <ul class="header-nav-menu">
+        <a  class="logo" href="">Miriam C. Oshee</a>
+        <li class="header-menu-item"><a href="#">Home</a></li>
+        <li class="header-menu-item"><a href="Skills">Skills</a></li>
+        <li class="header-menu-item"><a href="./projects.html">Projects</a></li>
+        <li class="header-menu-item"><a href="#Testimonials">Testimonials</a></li>
+        <li class="header-menu-item"><a href="./blog.html">My Blog Page</a></li>
+        <li class="header-menu-item"><a href="./contact.html">Contact</a></li>
+    </ul>  
     </nav>
   </header>
 
-  <h1>Miriam C. Oshee</h1>
+  <div class="heading-container">
+    <h1>Miriam C. Oshee</h1>
+    <h2>Frontend Developer</h2>
+  </div>
+
+  <div class="font-size-experiment">
+    Text
+    <div class="font-size-experiment">
+      Text
+      <div class="font-size-experiment">
+        Text
+      </div>
+    </div>
+  </div>
 
   <section>
     <p class="introduction">
@@ -37,7 +50,9 @@
 
   <section class="profile">
     <h2>My Profile</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum pariatur, unde, nostrum, reprehenderit porro rem libero labore qui ducimus neque excepturi aut a eveniet. Ullam suscipit officiis sapiente ducimus omnis.</p>
+    <p id="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere necessitatibus, voluptatibus exercitationem reiciendis ad voluptas ducimus quasi, delectus vel commodi! Rem asperiores animi consequuntur laudantium obcaecati minus eveniet amet?</p>
+    <p id="first-paragraph">Sample of profile paragraph</p>
+ 
   </section>
 
   <section>
@@ -63,15 +78,14 @@
 
   <section>
     <h2>Contact</h2>
-    <input type="text" name="last_name" placeholder="Your Last Name">
     <form action="#" method="GET">
       <section>
         <label for="id_name">Name:</label>
-        <input type="text" name="name" id="id_name" placeholder="Your first name">
+        <input type="text" name="name" id="name" placeholder="Your name">
       </section>
       <section>
         <label for="id_email">E-mail:</label>
-        <input type="text" name="email" id="id_email" placeholder="Your email name">
+        <input type="text" name="email" id="email" placeholder="Your email">
       </section>
       <section>
         <label for="message">Message:</label>
@@ -83,7 +97,7 @@
   </section>
 
   <footer>
-    Copyright @2002 Miram
+    Copyright @2002 Miriam C. Oshee
   </footer>
 
   <ul>
